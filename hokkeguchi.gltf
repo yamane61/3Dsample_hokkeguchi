@@ -1,0 +1,160 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.0.0 glTF Exporter 1.3.0"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 32124,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 32021,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.124529146, -0.0499879681, -0.142728195 ],
+			"max": [ 0.162320301, -0.0269939154, 0.154407278 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 32021,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 32021,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 32021,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 32021,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "hokkeguchi.bin",
+			"byteLength": 1857424
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 64248,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 384252,
+			"byteOffset": 64248,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 384252,
+			"byteOffset": 448500,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 512336,
+			"byteOffset": 832752,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 256168,
+			"byteOffset": 1345088,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 256168,
+			"byteOffset": 1601256,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "Model_0.jpg"
+		}
+	],
+	"materials": [
+		{
+			"name": "UnnamedMaterial",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				}
+			},
+			"extensions":
+			{
+				"KHR_materials_unlit":
+				{
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "DefaultName",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"name": "Model_0",
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "Model_0",
+			"sampler": 0,
+			"source": 0
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_unlit"
+	]
+}
